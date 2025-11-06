@@ -1,0 +1,17 @@
+{
+  "name": "challenge-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node services",
+    "seed": "node scripts/seed-events.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fastify": "^4.28.0",
+    "msw": "^2.7.3"
+  }
+}
